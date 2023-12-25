@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #E7BCDE;
+    font-family: 'Courier New', monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282c34;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.timer-display {
+    font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    background-color:#E3651D;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #A0E9FF;
+}
+
+button:hover {
+    background-color: #F875AA;
+}
+
+button:disabled {
+    background-color: #F875AA;
+    cursor: not-allowed;
+}
